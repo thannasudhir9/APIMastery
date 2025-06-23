@@ -1,0 +1,60 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.hero {
+  background: #005eb8;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  margin-bottom: 1rem;
+}
+.btn {
+  background: white;
+  color: #005eb8;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.features, .preview, .faq {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.features ul {
+  list-style: none;
+  padding-left: 0;
+}
+.features li {
+  margin: 0.5rem 0;
+}
+.preview img {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+.faq-item {
+  margin-bottom: 1rem;
+}
+.faq-item h3 {
+  cursor: pointer;
+  margin: 0;
+}
+.faq-item p {
+  margin: 0.5rem 0 0;
+}
+.hidden {
+  display: none;
+}
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
